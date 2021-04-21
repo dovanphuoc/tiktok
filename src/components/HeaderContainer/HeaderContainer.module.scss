@@ -1,0 +1,49 @@
+.HeaderContainer {
+    height: 60px;
+    border-bottom: 1px solid var(--grey2);
+}
+
+.navbarContainer {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ellipsIcon {
+    margin-left: 12px;
+    font-size: 1.8rem;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--grey3);
+    border-radius: 30px;
+    width: 25%;
+}
+
+.inputBox, .searchButton {
+    background: transparent;
+}
+
+.inputBox {
+    color: var(--black);
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 12px 16px;
+}
+
+.inputBox::placeholder {
+    font-size: 1.6rem;
+    color: var(--grey);
+}
+
+.searchButton {
+    padding: 11px 16px 11px 12px;
+}
+
+.searchIcon {
+    font-size: 2.2rem;
+    color: var(--grey);
+}

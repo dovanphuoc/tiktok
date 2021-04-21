@@ -1,0 +1,50 @@
+.heading {
+    color: var(--grey);
+    padding: 16px 0 0 4px;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+}
+
+.accountItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 6px;
+}
+
+.accountItem:hover {
+    background-color: var(--grey4);
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.accountBody {
+    margin-left: 12px;
+}
+
+.nickname {
+    font-size: 1.8rem;
+    color: var(--black);
+}
+
+.seeAll {
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.text {
+    color: var(--red);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.chervonDownIcon {
+    color: var(--red);
+    font-size: 2rem;
+    margin-left: 5px;
+}

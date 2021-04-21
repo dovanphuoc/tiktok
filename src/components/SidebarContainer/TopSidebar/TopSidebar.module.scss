@@ -1,0 +1,45 @@
+.navLink {
+    padding: 16px 12px 12px;
+    display: block;
+    transition: .3s ease all;
+}
+
+.navLink:hover {
+    background-color: var(--grey4);
+}
+
+.iconHome, .iconUsers {
+    margin-right: 13px;
+    font-size: 2.6rem;
+}
+
+.navLink span {
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.loginWrapper {
+    padding: 0 16px;
+    margin: 48px 0 20px;
+    position: relative;
+}
+
+.loginWrapper::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 17px;
+    height: 1px;
+    width: 87%;
+    background-color: var(--grey5);
+}
+
+.desc {
+    display: block;
+    color: var(--grey);
+    font-size: 1.6rem;
+}
+
+.loginBtn {
+
+}

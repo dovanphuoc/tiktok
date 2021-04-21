@@ -1,0 +1,37 @@
+.cardItem {
+    background: url('../../../assets/images/thumb.jpg') no-repeat center;
+    padding-top: 50%;
+    background-size: cover;
+    width: calc(100%/3);
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.thumb {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cardContent {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white);
+    padding: 35px 12px 20px;
+    width: 100%;
+    text-align: center;
+    h5 {
+        font-size: 1.8rem;
+    }
+    h6 {
+        font-size: 1.4rem;
+        margin-bottom: 8px;
+    }
+}

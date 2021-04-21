@@ -1,0 +1,51 @@
+.underline:hover {
+    text-decoration: underline;
+}
+
+.default {
+    background-color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.border {
+    background-color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: 1px solid var(--red);
+    color: var(--red);
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.border:hover {
+    background-color: var(--grey4);
+}
+
+.primary {
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 16px;
+    font-size: 1.4rem;
+    font-size: 1.6rem;
+}
+
+.l {
+    width: 100%;
+    padding: 14px 0;
+}
+
+.xs {
+    width: 88px;
+}
+
+.xl {
+    padding: 14px 0;
+}
+
+.xxl {
+    width: 70%;
+}
